@@ -4,7 +4,7 @@ import App from "./app/App";
 import "./styles/index.css";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename={import.meta.env.PROD ? "/pure-assam-silk" : ""}>
+  <BrowserRouter basename={import.meta.env.PROD ? "/pure-assam-silk" : "/"}>
     <App />
   </BrowserRouter>
 );
