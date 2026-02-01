@@ -11,9 +11,13 @@ export const Navbar = ({ onNavigate }: NavbarProps) => {
       <div className="max-w-[1440px] mx-auto h-full flex items-center px-8 md:px-16 justify-between">
         <button 
           onClick={() => onNavigate?.('home')}
-          className="text-[#F7F3F0] text-lg font-serif font-medium tracking-[-0.01em] cursor-pointer"
+          className="cursor-pointer flex items-center"
         >
-          Pure Assam Silk
+          <img 
+            src="/images/logo.png" 
+            alt="Pure Assam Silk" 
+            className="h-32 w-auto object-contain"
+          />
         </button>
         <div className="flex items-center space-x-12">
           <Link
