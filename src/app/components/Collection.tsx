@@ -1,24 +1,23 @@
 import React from 'react';
 import { ProductCard } from './ProductCard';
-import weavingImg from '../../assets/images/home/weaving.jpg';
-import silkImg from '../../assets/images/home/silk.jpg';
-import gamusaImg from '../../assets/images/home/gamusa.jpg';
+
+const base = import.meta.env.PROD ? '/pure-assam-silk/' : '/';
 
 const products = [
   {
     title: "Crafted in Assam",
     subtitle: "HANDWOVEN • LIMITED PIECES",
-    image: weavingImg
+    image: `${base}images/home/weaving.jpg`
   },
   {
     title: "Pure Assam Silk",
     subtitle: "HANDWOVEN • LIMITED PIECES",
-    image: silkImg
+    image: `${base}images/home/silk.jpg`
   },
   {
     title: "Traditional Elegance",
     subtitle: "HANDWOVEN • LIMITED PIECES",
-    image: gamusaImg
+    image: `${base}images/home/gamusa.jpg`
   }
 ];
 
