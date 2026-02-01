@@ -1,0 +1,7 @@
+@import './fonts.css';
+@import './theme.css';
+@import './tailwind.css';
+
+html, body, #root {
+  height: 100%;
+}
