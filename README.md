@@ -1,107 +1,45 @@
-<<<<<<< HEAD
 # Pure Assam Silk
 
-A minimalist heritage-inspired website crafted to showcase authentic Assamese silk collections with elegance, clarity, and cultural respect.
+A minimalist heritage-inspired website showcasing authentic Assamese silk collections with premium design aesthetics and cultural authenticity.
 
 ## About the Project
-=======
-Pure Assam Silk
 
-A minimalist heritage-inspired website crafted to showcase authentic Assamese silk collections with elegance, clarity, and cultural respect.
+Pure Assam Silk is a portfolio-grade frontend showcase built to represent a small independent silk brand rooted in over 25 years of family experience in the Assamese silk industry. This project demonstrates how traditional craftsmanship can be presented through modern web technologies while maintaining cultural integrity and premium brand positioning.
 
-About the Project
->>>>>>> 8c252a383bfd8ecb63b521fa40f37bba9663b3af
-
-Pure Assam Silk is a static showcase website built to represent a small independent silk brand rooted in over 25 years of family experience in the silk industry.
-The goal of this project is to present traditional Assamese silk in a premium, minimal, and modern digital format while maintaining authenticity and heritage aesthetics.
-
-This project focuses on:
-
-<<<<<<< HEAD
-- Cultural storytelling
-- Product presentation
-- Clean UI/UX design
-- Lightweight performance
-- Responsive layout
+The website emphasizes clean typography, restrained color palettes, and strategic use of whitespace to create a sophisticated digital presence that honors the heritage of Assamese silk weaving traditions.
 
 ## Features
 
-- Minimalist premium UI design
-- Fully responsive layout
+- Minimalist premium UI with heritage-inspired design language
+- Fully responsive layout optimized for all devices
 - Collection-based product categorization
-- WhatsApp inquiry integration
-- Clean typography and heritage color palette
-- Optimized image handling
-- Smooth navigation between pages
-- Lightweight and fast loading
+- Direct WhatsApp inquiry integration
+- Clean typography and curated color palette
+- Optimized image handling and lazy loading
+- Smooth client-side navigation
+- Lightweight bundle size for fast loading
 
 ## Tech Stack
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Router
-- GitHub Pages (Deployment)
+- **React** - Component-based UI library
+- **TypeScript** - Type-safe development
+- **Vite** - Modern build tool and dev server
+- **Tailwind CSS** - Utility-first styling
+- **React Router** - Client-side routing
+- **GitHub Pages** - Static site deployment
 
 ## Project Structure
 
 ```
-=======
-Cultural storytelling
-
-Product presentation
-
-Clean UI/UX design
-
-Lightweight performance
-
-Responsive layout
-
-Features
-
-Minimalist premium UI design
-
-Fully responsive layout
-
-Collection-based product categorization
-
-WhatsApp inquiry integration
-
-Clean typography and heritage color palette
-
-Optimized image handling
-
-Smooth navigation between pages
-
-Lightweight and fast loading
-
-Tech Stack
-
-React
-
-TypeScript
-
-Vite
-
-Tailwind CSS
-
-React Router
-
-GitHub Pages (Deployment)
-
-Project Structure
->>>>>>> 8c252a383bfd8ecb63b521fa40f37bba9663b3af
 src/
- ├─ app/
- │   ├─ components/
- │   ├─ routes/
- │   └─ pages/
- ├─ assets/
- │   └─ images/
- ├─ styles/
- └─ main.tsx
-<<<<<<< HEAD
+ ├── app/
+ │   ├── components/      # Reusable UI components
+ │   ├── App.tsx          # Main application component
+ │   └── routes/          # Route components
+ ├── assets/
+ │   └── images/          # Static image assets
+ ├── styles/              # Global styles and theme
+ └── main.tsx             # Application entry point
 ```
 
 ## Collections Included
@@ -109,26 +47,36 @@ src/
 - Pat Silk Mekhela Chador
 - Pat Silk Mekhela Chador with Riha
 - Muga Silk Mekhela Chador
+- Tas Pat Mekhela Chador
 - Tas & Riha Jora Collection
 - Eri Shawls Collection
 - Assamese Pat Gamusa Collection
 
 ## Purpose
 
-This project was built as:
+This project was developed to:
 
-- A portfolio-level frontend project
-- A real-world brand showcase simulation
-- A resume-ready UI/UX case study
-- Practice for clean React + Tailwind architecture
+- Demonstrate portfolio-level frontend development skills
+- Simulate a real-world brand showcase implementation
+- Practice modern React architecture and component design
+- Explore Tailwind CSS for premium UI development
+- Create a resume-ready case study with production deployment
 
 ## Deployment
 
-Hosted using GitHub Pages for static delivery and easy accessibility.
+The website is deployed on GitHub Pages, providing reliable static hosting with global CDN distribution. The production build is optimized for performance with code splitting and asset optimization.
 
-## Running the Project
+**Live Site**: [https://krishnikbarman.github.io/pure-assam-silk](https://krishnikbarman.github.io/pure-assam-silk)
+
+## Installation and Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/krishnikbarman/pure-assam-silk.git
+
+# Navigate to project directory
+cd pure-assam-silk
+
 # Install dependencies
 npm install
 
@@ -142,61 +90,38 @@ npm run build
 npm run deploy
 ```
 
-## Screenshots
-
-(You can add screenshots here later)
-
 ## Learning Outcomes
 
-- Component structuring in React
-- Router configuration & basename handling
-- Asset management & optimization
-- Tailwind theme customization
-- Clean folder architecture
-- Git version control & deployment
+- Component architecture and composition patterns in React
+- TypeScript integration for type-safe component development
+- Router configuration and basename handling for GitHub Pages
+- Tailwind CSS customization and theme management
+- Asset optimization and import strategies
+- Git workflow and continuous deployment
+- Clean code organization and folder structure
 
 ## Future Improvements
 
-- Product detail pages
-- Backend integration
-- Admin dashboard
-- E-commerce functionality
-- SEO optimization
+- Individual product detail pages with image galleries
+- Backend integration for dynamic content management
+- Content management system (CMS) integration
+- Advanced filtering and search functionality
+- SEO optimization and meta tag management
+- Performance monitoring and analytics
+- Multi-language support
 
 ## Author
 
 **Krishnik Barman**  
 Frontend Developer | UI/UX Enthusiast
 
+Portfolio: [Your Portfolio URL]  
+LinkedIn: [Your LinkedIn]  
+GitHub: [@krishnikbarman](https://github.com/krishnikbarman)
+
 ## License
 
-This project is for educational and portfolio purposes.
-  
-=======
-
-Collections Included
-
-Pat Silk Mekhela Chador
-
-Pat Silk Mekhela Chador with Riha
-
-Muga Silk Mekhela Chador
-
-Tas & Riha Jora Collection
-
-Eri Shawls Collection
-
-Assamese Pat Gamusa Collection
-
-Purpose
-
-This project was built as:
-
-A portfolio-level frontend project
-
-A real-world brand showcase simulation
-
-A resume-ready UI/UX case study
+This project is developed for educational and portfolio purposes. All product imagery and brand content are used for demonstration only.
 
 Practice for clean React + Tailwind architecture
 
