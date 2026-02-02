@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://krishnikbarman.github.io/pure-assam-silk",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && echo. > dist/.nojekyll",
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
