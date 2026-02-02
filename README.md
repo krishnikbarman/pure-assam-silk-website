@@ -115,9 +115,9 @@ npm run deploy
 **Krishnik Barman**  
 Frontend Developer | UI/UX Enthusiast
 
-Portfolio: [Your Portfolio URL]  
-LinkedIn: [Your LinkedIn]  
-GitHub: [@krishnikbarman](https://github.com/krishnikbarman)
+Portfolio: [https://portfolio-website-umber-omega-30.vercel.app/] 
+LinkedIn: [https://www.linkedin.com/in/krishnik-barman-/]  
+GitHub: [https://github.com/krishnikbarman]
 
 ## License
 
@@ -129,9 +129,6 @@ Deployment
 
 Hosted using GitHub Pages for static delivery and easy accessibility.
 
-Screenshots
-
-(You can add screenshots here later)
 
 Learning Outcomes
 
@@ -167,4 +164,3 @@ Frontend Developer | UI/UX Enthusiast
 License
 
 This project is for educational and portfolio purposes.
->>>>>>> 8c252a383bfd8ecb63b521fa40f37bba9663b3af
