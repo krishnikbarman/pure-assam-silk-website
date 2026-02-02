@@ -14,7 +14,7 @@ export const Navbar = ({ onNavigate }: NavbarProps) => {
           className="cursor-pointer flex items-center"
         >
           <img 
-            src="/images/logo.png" 
+            src={`${import.meta.env.BASE_URL}images/logo.png`}
             alt="Pure Assam Silk" 
             className="h-32 w-auto object-contain"
           />
