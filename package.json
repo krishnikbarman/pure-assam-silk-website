@@ -6,9 +6,7 @@
   "homepage": "https://krishnikbarman.github.io/pure-assam-silk-website",
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -t"
+    "dev": "vite"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
