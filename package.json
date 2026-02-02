@@ -5,10 +5,10 @@
   "type": "module",
   "homepage": "https://krishnikbarman.github.io/pure-assam-silk",
   "scripts": {
-    "build": "vite build && echo. > dist/.nojekyll",
+    "build": "vite build",
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -t"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
