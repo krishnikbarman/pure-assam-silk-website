@@ -7,7 +7,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && copy README.md dist\\README.md && gh-pages -d dist"
   },
   "dependencies": {
     "react": "18.3.1",
