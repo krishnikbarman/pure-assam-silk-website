@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProductCard } from './ProductCard';
 
-const base = import.meta.env.PROD ? '/pure-assam-silk/' : '/';
+const base = import.meta.env.BASE_URL;
 
 const products = [
   {

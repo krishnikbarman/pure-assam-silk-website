@@ -54,7 +54,7 @@ const CategorySection = ({ title, description, images, gridCols }: CategoryProps
 }
 
 export const CollectionCatalogue = () => {
-  const base = import.meta.env.PROD ? '/pure-assam-silk/' : '/';
+  const base = import.meta.env.BASE_URL;
 
   const categories: CategoryProps[] = [
     {
